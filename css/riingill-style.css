@@ -1,0 +1,76 @@
+body {
+  color: #333333;
+  font-family: 'Raleway', sans-serif;
+  background: #d4f7ff;
+}
+
+p {
+  margin: 0;
+}
+
+header {
+    height: 110px;
+    margin: 0 auto;
+}
+
+header a {
+  float: right;
+  color: #a9d22d;
+}
+
+header h1 {
+  color: #a9d22d;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.advice h3 {
+  color: #398fac;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+}
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+/***** CONTENT *****/
+
+#advice-left-top {
+  height: 185px;
+  background: #b8e0d6;
+  margin: 0 0 0 200px;
+  padding: 10px 12px 0 12px;
+}
+
+#advice-left-bottom {
+  height: 165px;
+  background: #d6edab;
+  margin: 0 0 10px 200px;
+  padding: 1px 12px 0 12px;
+}
+
+#advice-right {
+  height: 350px;
+  background: #b3d9e6;
+  margin: 0 200px 10px 0;
+  padding: 10px 12px 0 12px;
+}
+
+/***** FOOTER *****/
+
+footer p {
+  padding-top: 10px;
+  height: 165px;
+  text-align: center;
+  clear: both;
+}
